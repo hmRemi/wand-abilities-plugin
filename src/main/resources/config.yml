@@ -1,0 +1,47 @@
+# ABILITIES CONFIGURATION
+LIGHTING_WAND:
+  ICON:
+    DISPLAYNAME: "&6&lLightning Wand"
+    DESCRIPTION:
+      - "&7&m------------------------------------------"
+      - "&7Strikes a lightning bolt "
+      - "&7&m------------------------------------------"
+    MATERIAL: "DIAMOND_SHOVEL"
+    DATA: 0
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - ""
+STRENGTH_WAND:
+  ICON:
+    DISPLAYNAME: "&6&lStrength Wand"
+    DESCRIPTION:
+      - "&7&m------------------------------------------"
+      - "&7Gives you the almighty strength effect!"
+      - "&7&m------------------------------------------"
+    MATERIAL: "GOLD_AXE"
+    DATA: 0
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &7*  &3You have successfully used %ABILITY%"
+      - ""
+TELEPORT_WAND:
+  ICON:
+    DISPLAYNAME: "&6&lTeleport Wand"
+    DESCRIPTION:
+      - "&7&m------------------------------------------"
+      - "&7Teleport to where you're looking."
+      - "&7&m------------------------------------------"
+    MATERIAL: "GOLD_AXE"
+    DATA: 0
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &7*  &3You have successfully used %ABILITY%"
+      - ""
+
+# ABILITIES MESSAGES
+RECEIVED_ABILITY: "&aYou've received x%AMOUNT% %ABILITY%&a."
+GIVE_ABILITY: "&aYou've given x%AMOUNT% %ABILITY% &ato &f%PLAYER%&a."

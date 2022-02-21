@@ -1,0 +1,4 @@
+name: WandAbilities
+version: '${project.version}'
+main: me.ziue.wandabilities.WandAbilities
+authors: [ ziue ]
