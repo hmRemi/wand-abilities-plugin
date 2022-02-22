@@ -11,7 +11,7 @@ LIGHTING_WAND:
   MESSAGE:
     PLAYER:
       - ""
-      - " &b►  &3You have successfully used %ABILITY%"
+      - " &7*  &3You have successfully used %ABILITY%"
       - ""
 STRENGTH_WAND:
   ICON:
