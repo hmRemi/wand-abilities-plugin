@@ -2,6 +2,7 @@ package me.ziue.wandabilities.commands;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.val;
 import me.ziue.api.command.BaseCommand;
 import me.ziue.api.command.Command;
 import me.ziue.api.command.CommandArgs;
@@ -32,6 +33,11 @@ public class AbilityCommand extends BaseCommand {
         }
 
         switch (args[0].toLowerCase()) {
+            case "reload":
+                CC.sender(player, "&bReloading...");
+                WandAbilities.getWandAbilities().getAbilityConfig().reload();
+                CC.sender(player, "&aSuccessfully Reloaded...");
+                break;
             case "give":
 
                 // If command arguments are invalid, return.
@@ -92,6 +98,7 @@ public class AbilityCommand extends BaseCommand {
         CC.sender(sender, "&3&lWand Ability Help");
         CC.sender(sender, "");
         CC.sender(sender, "&b/" + label + " give <player> <ability|all> <amount>");
+        CC.sender(sender, "&b/" + label + " reload");
         CC.sender(sender, "&b/" + label + " list");
         CC.sender(sender, "&7&m-----------------------------");
     }
