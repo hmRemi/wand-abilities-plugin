@@ -80,8 +80,7 @@ public class AbilityCommand extends BaseCommand {
                 CC.sender(player, "&7&m-----------------------------");
                 CC.sender(player, "&3&lWand Abilities List &7(" + Ability.getAbilities().size() + ")");
                 CC.sender(player, "");
-                plugin.getAbilityManager().getAbilities().forEach(
-                        ability -> CC.sender(player, " &7- &b" + ability));
+                Ability.getAbilities().forEach(ability -> CC.sender(player, " &7- &b" + ability.getAbility()));
                 CC.sender(player, "&7&m-----------------------------");
                 break;
         }
