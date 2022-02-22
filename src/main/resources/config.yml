@@ -6,7 +6,7 @@ LIGHTING_WAND:
       - "&7&m------------------------------------------"
       - "&7Strikes a lightning bolt "
       - "&7&m------------------------------------------"
-    MATERIAL: "DIAMOND_SHOVEL"
+    MATERIAL: "GOLD_AXE"
     DATA: 0
   MESSAGE:
     PLAYER:
@@ -33,6 +33,20 @@ TELEPORT_WAND:
     DESCRIPTION:
       - "&7&m------------------------------------------"
       - "&7Teleport to where you're looking."
+      - "&7&m------------------------------------------"
+    MATERIAL: "GOLD_AXE"
+    DATA: 0
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &7*  &3You have successfully used %ABILITY%"
+      - ""
+FIREBALL_WAND:
+  ICON:
+    DISPLAYNAME: "&6&lFireball Wand"
+    DESCRIPTION:
+      - "&7&m------------------------------------------"
+      - "&7Shoot fireballs!"
       - "&7&m------------------------------------------"
     MATERIAL: "GOLD_AXE"
     DATA: 0

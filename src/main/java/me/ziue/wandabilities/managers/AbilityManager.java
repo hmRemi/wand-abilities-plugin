@@ -3,6 +3,7 @@ package me.ziue.wandabilities.managers;
 import lombok.Getter;
 import me.ziue.api.item.ItemBuilder;
 import me.ziue.wandabilities.WandAbilities;
+import me.ziue.wandabilities.abilities.FireballWand;
 import me.ziue.wandabilities.abilities.LightningWand;
 import me.ziue.wandabilities.abilities.StrengthWand;
 import me.ziue.wandabilities.abilities.TeleportWand;
@@ -22,6 +23,7 @@ public class AbilityManager {
     private LightningWand lightningWand;
     private StrengthWand strengthWand;
     private TeleportWand teleportWand;
+    private FireballWand fireballWand;
 
     public AbilityManager() {
         this.register();
@@ -32,6 +34,7 @@ public class AbilityManager {
         this.lightningWand = new LightningWand();
         this.strengthWand = new StrengthWand();
         this.teleportWand = new TeleportWand();
+        this.fireballWand = new FireballWand();
     }
 
     public void load() {
